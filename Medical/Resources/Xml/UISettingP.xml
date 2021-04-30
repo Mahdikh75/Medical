@@ -1,0 +1,17 @@
+﻿<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+  <PreferenceCategory
+  android:title="تنظیمات عمومی" />
+  <SwitchPreference
+  android:key="Sound"
+  android:title="صدا"
+  android:defaultValue="true"
+  android:summary="ایجاد صدای افکت برنامه"
+  android:textDirection ="anyRtl"/>
+  <SwitchPreference
+  android:key="Vibrator"
+  android:title="لرزش"
+  android:defaultValue="true"
+  android:summary="مدیریت کنترل لرزش"
+  android:textDirection ="anyRtl"/>
+
+</PreferenceScreen>

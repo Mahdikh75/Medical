@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <FlipNumbers.FlipNumbersView
+        android:id="@+id/HealthFlipNumbersMainV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        digits_count="4"
+        android:layout_gravity="center"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="20dp" />
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/HealthLinearLayoutMTP"
+        android:layout_weight="1"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="20dp"
+        android:minWidth="25px"
+        android:minHeight="25px">
+        <TableLayout
+            android:minWidth="25px"
+            android:minHeight="25px"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/HealthTableLayoutMain">
+            <TableRow
+                android:id="@+id/HealthTableRowTimer"
+                android:layout_margin="5dp">
+                <Chronometer
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:id="@+id/HealthChronometerMain"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:layout_margin="5dp" />
+                <ImageView
+                    android:src="@drawable/HealthTimer"
+                    android:layout_column="1"
+                    android:id="@+id/HealthImageViewTimer" />
+            </TableRow>
+            <TableRow
+                android:id="@+id/HealthTableRowCaleri"
+                android:layout_margin="5dp">
+                <TextView
+                    android:text="میزان سوخت کالری"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:layout_column="0"
+                    android:id="@+id/HealthTextViewCaleri"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:layout_margin="5dp"
+                    android:layout_height="match_parent"
+                    android:layout_width="match_parent" />
+                <ImageView
+                    android:src="@drawable/HealthCal"
+                    android:layout_column="1"
+                    android:id="@+id/HealthImageViewCaleri" />
+            </TableRow>
+            <TableRow
+                android:id="@+id/HealthTableRowKiloMeter"
+                android:layout_margin="5dp">
+                <TextView
+                    android:text="کیلومتر سنج"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:layout_column="0"
+                    android:id="@+id/HealthTextViewKiloMeter"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:layout_margin="5dp"
+                    android:layout_height="match_parent"
+                    android:layout_width="match_parent" />
+                <ImageView
+                    android:src="@drawable/HealthKhMeter"
+                    android:layout_column="1"
+                    android:id="@+id/HealthImageViewKiloMeter" />
+            </TableRow>
+            <TableRow
+                android:id="@+id/HealthTableRowSpeed"
+                android:layout_margin="5dp">
+                <TextView
+                    android:text="سرعت سنج"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:layout_column="0"
+                    android:id="@+id/HealthTextViewSpeed"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:layout_margin="5dp"
+                    android:layout_height="match_parent"
+                    android:layout_width="match_parent" />
+                <ImageView
+                    android:src="@drawable/HealthSpeed"
+                    android:layout_column="1"
+                    android:id="@+id/HealthImageViewSpeed" />
+            </TableRow>
+            <TableRow
+                android:id="@+id/HealthTableRowHeightKL"
+                android:layout_margin="5dp">
+                <ScrollView
+                    android:minWidth="25px"
+                    android:minHeight="25px"
+                    android:layout_column="0"
+                    android:layout_weight="1"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:id="@+id/HealthScrollViewMainTVK">
+                    <TextView
+                        android:text="ارتفاع صعود قله"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:id="@+id/HealthTextViewHeightKL"
+                        android:gravity="center"
+                        android:layout_height="match_parent"
+                        android:layout_width="match_parent" />
+                </ScrollView>
+                <ImageView
+                    android:src="@drawable/HealthHeight"
+                    android:layout_column="1"
+                    android:id="@+id/HealthImageViewHeightKL" />
+            </TableRow>
+        </TableLayout>
+    </LinearLayout>
+    <Button
+        android:text="اجرا / توقف"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/HealthBtnOnOff"
+        android:layout_margin="5dp"
+        android:textColor="@color/White" />
+</LinearLayout>

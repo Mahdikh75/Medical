@@ -1,0 +1,1 @@
+<resources><style name="ThemeaMain" parent="android:Theme.Material.Light"><item name="android:colorPrimary">@color/Red</item><item name="android:colorAccent">@color/WDC</item><item name="android:windowBackground">@color/White</item><item name="android:statusBarColor">@color/ColorTmAb</item></style></resources>

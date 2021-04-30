@@ -1,0 +1,11 @@
+E:\Software Developer\Platforms\Android\Project\Application Android\Medical\Medical\obj\Release\90\android\assets\Medical.dll
+E:\Software Developer\Platforms\Android\Project\Application Android\Medical\Medical\obj\Release\90\android\assets\AnimatedCircleLoadingView.dll
+E:\Software Developer\Platforms\Android\Project\Application Android\Medical\Medical\obj\Release\90\android\assets\CalligraphyBindings.dll
+E:\Software Developer\Platforms\Android\Project\Application Android\Medical\Medical\obj\Release\90\android\assets\Java.Interop.dll
+E:\Software Developer\Platforms\Android\Project\Application Android\Medical\Medical\obj\Release\90\android\assets\Mono.Android.dll
+E:\Software Developer\Platforms\Android\Project\Application Android\Medical\Medical\obj\Release\90\android\assets\mscorlib.dll
+E:\Software Developer\Platforms\Android\Project\Application Android\Medical\Medical\obj\Release\90\android\assets\NumberProgressBar.dll
+E:\Software Developer\Platforms\Android\Project\Application Android\Medical\Medical\obj\Release\90\android\assets\System.Core.dll
+E:\Software Developer\Platforms\Android\Project\Application Android\Medical\Medical\obj\Release\90\android\assets\System.dll
+E:\Software Developer\Platforms\Android\Project\Application Android\Medical\Medical\obj\Release\90\android\assets\Xamarin.Controls.FlipNumbers.Android.dll
+E:\Software Developer\Platforms\Android\Project\Application Android\Medical\Medical\obj\Release\90\android\assets\System.Runtime.Serialization.dll

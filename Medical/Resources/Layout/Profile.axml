@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:minWidth="25px"
+    android:minHeight="25px">
+    <LinearLayout
+        android:orientation="horizontal"
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/ProfileLinearLayoutTp1"
+        android:background="@color/Red">
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/ProfileLinearLayoutTpp1"
+            android:layout_margin="20dp">
+            <ImageView
+                android:src="@drawable/DefAccount"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:id="@+id/ProfileImageViewNA" />
+            <EditText
+                android:inputType="textPersonName"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:id="@+id/ProfileEditTextName"
+                android:layout_weight="1"
+                android:gravity="right"
+                android:textColor="@color/White"
+                android:hint="اسم حساب "
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp" />
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="vertical"
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/ProfileLinearLayoutTp2"
+        android:layout_weight="1">
+        <TableLayout
+            android:minWidth="25px"
+            android:minHeight="25px"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/ProfileTableLayoutMain">
+            <TableRow
+                android:id="@+id/ProfileTableRowA"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginLeft="20dp">
+                <EditText
+                    android:inputType="number"
+                    android:layout_column="0"
+                    android:id="@+id/ProfileEditTextAge"
+                    android:layout_weight="1"
+                    android:hint="سن به سال"
+                    android:layout_marginLeft="10dp" />
+                <TextView
+                    android:text="سن : "
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:layout_column="1"
+                    android:id="@+id/ProfileTextViewA"
+                    android:gravity="center" />
+            </TableRow>
+            <TableRow
+                android:id="@+id/ProfileTableRowT"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginLeft="20dp">
+                <EditText
+                    android:inputType="number"
+                    android:layout_column="0"
+                    android:id="@+id/ProfileEditTextTall"
+                    android:layout_weight="1"
+                    android:hint="قد به سانتی متر"
+                    android:layout_marginLeft="10dp" />
+                <TextView
+                    android:text="قد : "
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:layout_column="1"
+                    android:id="@+id/ProfileTextViewT"
+                    android:gravity="center" />
+            </TableRow>
+            <TableRow
+                android:id="@+id/ProfileTableRowW"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp">
+                <EditText
+                    android:inputType="number"
+                    android:layout_column="0"
+                    android:id="@+id/ProfileEditTextWeight"
+                    android:layout_weight="1"
+                    android:hint="وزن به کیلوگرم"
+                    android:layout_marginLeft="10dp" />
+                <TextView
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:layout_column="1"
+                    android:id="@+id/ProfileTextViewW"
+                    android:text="وزن : "
+                    android:gravity="center" />
+            </TableRow>
+            <TableRow
+                android:id="@+id/ProfileTableRowS"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginLeft="20dp">
+                <Spinner
+                    android:layout_column="0"
+                    android:id="@+id/ProfileSpinnerSex"
+                    android:layout_weight="1"
+                    android:layout_marginLeft="10dp" />
+                <TextView
+                    android:text="جنسیت : "
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:layout_column="1"
+                    android:id="@+id/ProfileTextViewS"
+                    android:gravity="center" />
+            </TableRow>
+            <TableRow
+                android:id="@+id/ProfileTableRowAC"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginLeft="20dp">
+                <Spinner
+                    android:layout_column="0"
+                    android:id="@+id/ProfileSpinnerActive"
+                    android:layout_weight="1"
+                    android:layout_marginLeft="10dp" />
+                <TextView
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:layout_column="1"
+                    android:id="@+id/ProfileTextViewAC"
+                    android:text="فعالیت : " />
+            </TableRow>
+        </TableLayout>
+    </LinearLayout>
+</LinearLayout>

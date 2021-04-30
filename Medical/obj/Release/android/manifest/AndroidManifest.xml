@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="Com.Mkh75Health_Medical" android:versionName="1.0" android:installLocation="auto" android:versionCode="3">
+  <!--suppress UsesMinSdkAttributes-->
+  <uses-sdk android:minSdkVersion="21" />
+  <uses-permission android:name="android.permission.BODY_SENSORS" />
+  <uses-permission android:name="android.permission.WAKE_LOCK" />
+  <uses-permission android:name="android.permission.VIBRATE" />
+  <uses-permission android:name="com.android.alarm.permission.SET_ALARM" />
+  <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+  <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+  <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+  <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+  <application android:label="Health &amp; Medical" android:icon="@drawable/medicalapp" android:name="md523548718144d57b5cfc2c2ebb796bcc0.CSFont" android:allowBackup="true">
+    <activity android:label="Alarm Medicine" android:name="md523548718144d57b5cfc2c2ebb796bcc0.AlarmMedicine" />
+    <activity android:icon="@drawable/medicalapp" android:label="Health &amp; Medical" android:screenOrientation="portrait" android:name="md523548718144d57b5cfc2c2ebb796bcc0.Amain">
+      <intent-filter>
+        <action android:name="android.intent.action.MAIN" />
+        <category android:name="android.intent.category.LAUNCHER" />
+      </intent-filter>
+    </activity>
+    <activity android:label="Calculator Medical" android:screenOrientation="portrait" android:name="md523548718144d57b5cfc2c2ebb796bcc0.CalculatorMedical" />
+    <activity android:label="Control body position" android:screenOrientation="portrait" android:name="md523548718144d57b5cfc2c2ebb796bcc0.ControlBodyPosition" />
+    <activity android:label="Health" android:screenOrientation="portrait" android:name="md523548718144d57b5cfc2c2ebb796bcc0.Health" />
+    <service android:enabled="true" android:exported="false" android:icon="@drawable/stepcounternoti" android:name="md523548718144d57b5cfc2c2ebb796bcc0.StepCounterNotiCm" />
+    <activity android:label="Heart Rate" android:screenOrientation="portrait" android:name="md523548718144d57b5cfc2c2ebb796bcc0.HeartRate" />
+    <activity android:label="Help About" android:screenOrientation="portrait" android:name="md523548718144d57b5cfc2c2ebb796bcc0.HelpAbout" />
+    <activity android:label="Massagers" android:screenOrientation="portrait" android:name="md523548718144d57b5cfc2c2ebb796bcc0.Massagers" />
+    <activity android:label="Profile" android:screenOrientation="portrait" android:name="md523548718144d57b5cfc2c2ebb796bcc0.Profile" />
+    <activity android:label="Riding Bike" android:name="md523548718144d57b5cfc2c2ebb796bcc0.RidingBike" />
+    <activity android:label="Settings" android:name="md523548718144d57b5cfc2c2ebb796bcc0.Setting" />
+    <activity android:label="Smart Watch" android:name="md523548718144d57b5cfc2c2ebb796bcc0.SmartWatchHealth" />
+    <provider android:name="mono.MonoRuntimeProvider" android:exported="false" android:initOrder="2147483647" android:authorities="Com.Mkh75Health_Medical.mono.MonoRuntimeProvider.__mono_init__" />
+  </application>
+</manifest>

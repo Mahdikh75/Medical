@@ -1,0 +1,121 @@
+ActionMenuView;obj\Release\90\res\layout\controlbodyposition.xml
+attr;E:\Software Developer\Platforms\Android\Project\Application Android\Medical\Medical\obj\Release\90\lp\0\jl\res\values\values.xml
+attr;E:\Software Developer\Platforms\Android\Project\Application Android\Medical\Medical\obj\Release\90\lp\1\jl\res\values\values.xml
+attr;E:\Software Developer\Platforms\Android\Project\Application Android\Medical\Medical\obj\Release\90\lp\2\jl\res\values\values.xml
+Button;obj\Release\90\res\layout\calculatormedical.xml
+Button;obj\Release\90\res\layout\controlbodyposition.xml
+Button;obj\Release\90\res\layout\health.xml
+Button;obj\Release\90\res\layout\massagers.xml
+Chronometer;obj\Release\90\res\layout\health.xml
+color;obj\Release\90\res\values\color.xml
+com.daimajia.numberprogressbar.NumberProgressBar;obj\Release\90\res\layout\heartrate.xml
+declare-styleable;E:\Software Developer\Platforms\Android\Project\Application Android\Medical\Medical\obj\Release\90\lp\0\jl\res\values\values.xml
+declare-styleable;E:\Software Developer\Platforms\Android\Project\Application Android\Medical\Medical\obj\Release\90\lp\2\jl\res\values\values.xml
+eat-comment;E:\Software Developer\Platforms\Android\Project\Application Android\Medical\Medical\obj\Release\90\lp\0\jl\res\values\values.xml
+eat-comment;E:\Software Developer\Platforms\Android\Project\Application Android\Medical\Medical\obj\Release\90\lp\1\jl\res\values\values.xml
+eat-comment;E:\Software Developer\Platforms\Android\Project\Application Android\Medical\Medical\obj\Release\90\lp\2\jl\res\values\values.xml
+EditText;obj\Release\90\res\layout\calculatormedical.xml
+EditText;obj\Release\90\res\layout\cbpinputdatashrwt.xml
+EditText;obj\Release\90\res\layout\cpbinputhome.xml
+EditText;obj\Release\90\res\layout\profile.xml
+enum;E:\Software Developer\Platforms\Android\Project\Application Android\Medical\Medical\obj\Release\90\lp\2\jl\res\values\values.xml
+FlipNumbers.FlipNumbersView;obj\Release\90\res\layout\health.xml
+FrameLayout;obj\Release\90\res\layout\calculatormedical.xml
+FrameLayout;obj\Release\90\res\layout\controlbodyposition.xml
+FrameLayout;obj\Release\90\res\layout\heartratethhelp.xml
+FrameLayout;obj\Release\90\res\layout\main.xml
+GridView;obj\Release\90\res\layout\main.xml
+ImageView;obj\Release\90\res\layout\calculatormedical.xml
+ImageView;obj\Release\90\res\layout\calculatormedicaltabhostcustom.xml
+ImageView;obj\Release\90\res\layout\controlbodyposition.xml
+ImageView;obj\Release\90\res\layout\health.xml
+ImageView;obj\Release\90\res\layout\heartrate.xml
+ImageView;obj\Release\90\res\layout\heartratecstoast.xml
+ImageView;obj\Release\90\res\layout\helpabout.xml
+ImageView;obj\Release\90\res\layout\layoutmgv.xml
+ImageView;obj\Release\90\res\layout\listviewcmdep.xml
+ImageView;obj\Release\90\res\layout\massagers.xml
+ImageView;obj\Release\90\res\layout\profile.xml
+item;E:\Software Developer\Platforms\Android\Project\Application Android\Medical\Medical\obj\Release\90\lp\1\jl\res\values\values.xml
+item;E:\Software Developer\Platforms\Android\Project\Application Android\Medical\Medical\obj\Release\90\lp\2\jl\res\values\values.xml
+item;obj\Release\90\res\values\style.xml
+LinearLayout;obj\Release\90\res\layout\alarmmedical.xml
+LinearLayout;obj\Release\90\res\layout\calculatormedical.xml
+LinearLayout;obj\Release\90\res\layout\calculatormedicaltabhostcustom.xml
+LinearLayout;obj\Release\90\res\layout\cbpinputdatashrwt.xml
+LinearLayout;obj\Release\90\res\layout\controlbodyposition.xml
+LinearLayout;obj\Release\90\res\layout\cpbinputhome.xml
+LinearLayout;obj\Release\90\res\layout\cpbinputsleepy.xml
+LinearLayout;obj\Release\90\res\layout\cpbinputwatercafi.xml
+LinearLayout;obj\Release\90\res\layout\health.xml
+LinearLayout;obj\Release\90\res\layout\heartrate.xml
+LinearLayout;obj\Release\90\res\layout\heartratecstoast.xml
+LinearLayout;obj\Release\90\res\layout\heartratethhelp.xml
+LinearLayout;obj\Release\90\res\layout\helpabout.xml
+LinearLayout;obj\Release\90\res\layout\layoutcbplsv.xml
+LinearLayout;obj\Release\90\res\layout\layoutmgv.xml
+LinearLayout;obj\Release\90\res\layout\listviewcmdep.xml
+LinearLayout;obj\Release\90\res\layout\main.xml
+LinearLayout;obj\Release\90\res\layout\massagers.xml
+LinearLayout;obj\Release\90\res\layout\massagerscustom.xml
+LinearLayout;obj\Release\90\res\layout\profile.xml
+LinearLayout;obj\Release\90\res\layout\profilecstoast.xml
+ListView;obj\Release\90\res\layout\calculatormedical.xml
+ListView;obj\Release\90\res\layout\controlbodyposition.xml
+NumberPicker;obj\Release\90\res\layout\cpbinputwatercafi.xml
+NumberPicker;obj\Release\90\res\layout\massagerscustom.xml
+PreferenceCategory;obj\Release\90\res\xml\uisettingp.xml
+PreferenceScreen;obj\Release\90\res\xml\uisettingp.xml
+resources;E:\Software Developer\Platforms\Android\Project\Application Android\Medical\Medical\obj\Release\90\lp\0\jl\res\values\values.xml
+resources;E:\Software Developer\Platforms\Android\Project\Application Android\Medical\Medical\obj\Release\90\lp\1\jl\res\values\values.xml
+resources;E:\Software Developer\Platforms\Android\Project\Application Android\Medical\Medical\obj\Release\90\lp\2\jl\res\values\values.xml
+resources;obj\Release\90\res\values\color.xml
+resources;obj\Release\90\res\values\strings.xml
+resources;obj\Release\90\res\values\style.xml
+ScrollView;obj\Release\90\res\layout\calculatormedical.xml
+ScrollView;obj\Release\90\res\layout\controlbodyposition.xml
+ScrollView;obj\Release\90\res\layout\health.xml
+ScrollView;obj\Release\90\res\layout\heartrate.xml
+ScrollView;obj\Release\90\res\layout\heartratethhelp.xml
+ScrollView;obj\Release\90\res\layout\helpabout.xml
+Spinner;obj\Release\90\res\layout\calculatormedical.xml
+Spinner;obj\Release\90\res\layout\profile.xml
+string;E:\Software Developer\Platforms\Android\Project\Application Android\Medical\Medical\obj\Release\90\lp\0\jl\res\values\values.xml
+string;E:\Software Developer\Platforms\Android\Project\Application Android\Medical\Medical\obj\Release\90\lp\2\jl\res\values\values.xml
+string;obj\Release\90\res\values\strings.xml
+style;E:\Software Developer\Platforms\Android\Project\Application Android\Medical\Medical\obj\Release\90\lp\2\jl\res\values\values.xml
+style;obj\Release\90\res\values\style.xml
+Switch;obj\Release\90\res\layout\calculatormedical.xml
+SwitchPreference;obj\Release\90\res\xml\uisettingp.xml
+TabHost;obj\Release\90\res\layout\calculatormedical.xml
+TabHost;obj\Release\90\res\layout\controlbodyposition.xml
+TabHost;obj\Release\90\res\layout\heartratethhelp.xml
+TableLayout;obj\Release\90\res\layout\calculatormedical.xml
+TableLayout;obj\Release\90\res\layout\controlbodyposition.xml
+TableLayout;obj\Release\90\res\layout\health.xml
+TableLayout;obj\Release\90\res\layout\heartrate.xml
+TableLayout;obj\Release\90\res\layout\profile.xml
+TableRow;obj\Release\90\res\layout\calculatormedical.xml
+TableRow;obj\Release\90\res\layout\controlbodyposition.xml
+TableRow;obj\Release\90\res\layout\health.xml
+TableRow;obj\Release\90\res\layout\heartrate.xml
+TableRow;obj\Release\90\res\layout\profile.xml
+TabWidget;obj\Release\90\res\layout\calculatormedical.xml
+TabWidget;obj\Release\90\res\layout\controlbodyposition.xml
+TabWidget;obj\Release\90\res\layout\heartratethhelp.xml
+TextView;obj\Release\90\res\layout\calculatormedical.xml
+TextView;obj\Release\90\res\layout\calculatormedicaltabhostcustom.xml
+TextView;obj\Release\90\res\layout\controlbodyposition.xml
+TextView;obj\Release\90\res\layout\health.xml
+TextView;obj\Release\90\res\layout\heartrate.xml
+TextView;obj\Release\90\res\layout\heartratecstoast.xml
+TextView;obj\Release\90\res\layout\heartratethhelp.xml
+TextView;obj\Release\90\res\layout\helpabout.xml
+TextView;obj\Release\90\res\layout\layoutcbplsv.xml
+TextView;obj\Release\90\res\layout\layoutmgv.xml
+TextView;obj\Release\90\res\layout\listviewcmdep.xml
+TextView;obj\Release\90\res\layout\massagers.xml
+TextView;obj\Release\90\res\layout\profile.xml
+TextView;obj\Release\90\res\layout\profilecstoast.xml
+TimePicker;obj\Release\90\res\layout\cpbinputsleepy.xml
+ToggleButton;obj\Release\90\res\layout\massagerscustom.xml
